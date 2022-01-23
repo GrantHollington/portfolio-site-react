@@ -7,7 +7,7 @@ const Container = styled.div`
 export default function Contact() {
     return (
         <Container>
-            Contact me
+
         </Container>
     )
 }

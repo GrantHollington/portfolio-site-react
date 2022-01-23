@@ -6,9 +6,26 @@ import { Works } from "./components/works/Works";
 import Contact from "./components/contact/Contact";
 
 const Container = styled.div`
+  height: 100vh;
 `;
 
 const Sections = styled.div`
+  width: 100%;
+  height: calc(100vh - 70px);
+  background-color: salmon;
+  position: relative;
+  top: 70px;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none; // for firefox
+  &::-webkit-scrollbar{
+      display: none;
+  }
+
+  > * {
+    width: 100vw;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start; 
+  }
 `;
 
 
