@@ -1,9 +1,13 @@
-import './contact.scss'
+import styled from 'styled-components'
+
+const Container = styled.div`
+    background-color: lightblue;
+`;
 
 export default function Contact() {
     return (
-        <div className="contact">
-            
-        </div>
+        <Container>
+            Contact me
+        </Container>
     )
 }

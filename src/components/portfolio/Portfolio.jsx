@@ -1,10 +1,14 @@
-import "./portfolio.scss"
+import styled from "styled-components";
+
+const Container = styled.div`
+  background-color: skyblue;
+`;
 
 function Portfolio() {
   return (
-    <div className="portfolio">
+    <Container>
 
-     </div>
+     </Container>
      )
 }
 

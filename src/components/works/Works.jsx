@@ -1,9 +1,13 @@
-import './works.css'
+import styled from "styled-components"
+
+const Container = styled.div`
+    background-color: lightgreen;
+`;
 
 export const Works = () => {
     return (
-        <div className="works">
+        <Container>
             
-        </div>
+        </Container>
     )
 }
